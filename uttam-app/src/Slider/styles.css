@@ -1,0 +1,43 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .App-container {
+    position: relative;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+  }
+  
+  .slider {
+    width: 80%;
+    height: 120px;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    overflow: hidden;
+  }
+  
+  .inner {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    height: 100%;
+    width: 150%;
+    transition: 0s ease-in;
+    position: absolute;
+    top: 0px;
+    left: 0;
+  }
+  
+  .inner-item {
+    padding: 3rem;
+    text-align: center;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 32px;
+    font-weight: 700px;
+  }
+  
